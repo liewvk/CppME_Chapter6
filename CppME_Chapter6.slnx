@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../CppME_Chapter6_Example6.15/CppME_Chapter6_Example6.15.vcxproj" />
+  <Project Path="../CppME_Chapter6_Example6.5/CppME_Chapter6_Example6.5.vcxproj" />
+  <Project Path="../CppME_Chapter6_Example6.8/CppME_Chapter6_Example6.8.vcxproj" />
+  <Project Path="CppME_Chapter6.vcxproj" />
+</Solution>
