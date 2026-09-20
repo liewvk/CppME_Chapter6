@@ -3,8 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../CppME_Chapter6_Example6.15/CppME_Chapter6_Example6.15.vcxproj" />
-  <Project Path="../CppME_Chapter6_Example6.5/CppME_Chapter6_Example6.5.vcxproj" />
-  <Project Path="../CppME_Chapter6_Example6.8/CppME_Chapter6_Example6.8.vcxproj" />
-  <Project Path="CppME_Chapter6.vcxproj" />
+  <Project Path="CppME_Chapter6.vcxproj" Id="ec9fc8d4-2aa2-41d8-9b1a-57a56a5baab1" />
+  <Project Path="CppME_Chapter6_Example6.15/CppME_Chapter6_Example6.15.vcxproj" Id="0a70920b-4bb4-4ddc-b0d9-c031ea0a2517" />
+  <Project Path="CppME_Chapter6_Example6.5/CppME_Chapter6_Example6.5.vcxproj" Id="8b60fea6-69d7-43eb-af1c-569d14460eef" />
+  <Project Path="CppME_Chapter6_Example6.8/CppME_Chapter6_Example6.8.vcxproj" Id="ff66a722-0b9a-4c09-9bca-d0e2f69af351" />
 </Solution>
