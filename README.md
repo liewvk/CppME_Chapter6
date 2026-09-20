@@ -1,39 +1,73 @@
 # CppME_Chapter6
 
-This repository contains the source code for Chapter 6 of "C++ Programming Made Easy." It provides a simple C++ console application that prints a greeting to the standard output.
+This repository contains the sample programs for Chapter 6 of "C++ Programming Made Easy." The examples focus on fundamental C++ programming concepts such as arithmetic operations, relational operators, and basic user input/output.
 
-## Project Overview
+## Repository Structure
 
-The project is intentionally minimal and serves as a starting point for learning C++ basics. The main program entry point is in `CppME_Chapter6.cpp`.
+- `CppME_Chapter6.cpp` — the main starter program for the chapter
+- `CppME_Chapter6.slnx` — solution file for the Visual Studio project
+- `CppME_Chapter6.vcxproj` — main project configuration
+- `CppME_Chapter6.vcxproj.filters` — Visual Studio filter configuration
+- `CppME_Chapter6_Example6.5/` — example demonstrating arithmetic operators
+- `CppME_Chapter6_Example6.8/` — example demonstrating relational operators
+- `CppME_Chapter6_Example6.15/` — example using arithmetic operations with user input
 
-## Included Files
+## Included Examples
 
-- `CppME_Chapter6.cpp` — the main C++ source file
-- `CppME_Chapter6.slnx` — the solution file for the project
-- `CppME_Chapter6.vcxproj` — the Visual Studio C++ project configuration
-- `CppME_Chapter6.vcxproj.filters` — Visual Studio file filters
+### Example 6.5: Basic Arithmetic
+Located in `CppME_Chapter6_Example6.5/`.
+
+This program demonstrates:
+- addition
+- subtraction
+- multiplication
+- division
+- modulus
+
+### Example 6.8: Relational Operators
+Located in `CppME_Chapter6_Example6.8/`.
+
+This program compares values using:
+- `==`
+- `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+
+### Example 6.15: Arithmetic with User Input
+Located in `CppME_Chapter6_Example6.15/`.
+
+This program asks the user for two numbers and displays the results for:
+- addition
+- subtraction
+- multiplication
+- division
 
 ## Building and Running
 
-### Using Visual Studio (Windows)
+### With Visual Studio
 
 1. Open `CppME_Chapter6.slnx` in Visual Studio.
 2. Build the solution.
-3. Run the program from the IDE.
+3. Run the project from the IDE.
 
-### Using a C++ compiler from the command line
+### From the Command Line
+
+Compile the main program with:
 
 ```bash
 g++ CppME_Chapter6.cpp -o CppME_Chapter6
 ./CppME_Chapter6
 ```
 
-## Example Output
+To compile one of the chapter examples:
 
-```text
-Hello World!
+```bash
+g++ CppME_Chapter6_Example6.5/CppME_Chapter6_Example6.5.cpp -o Example6_5
+./Example6_5
 ```
 
 ## Notes
 
-This repository is a straightforward educational example and is suitable for beginner C++ practice and experimentation.
+This repository is intended for beginner C++ learners and serves as a practical collection of chapter-based sample programs. Each example is designed to be easy to understand and modify for experimentation.
